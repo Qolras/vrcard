@@ -1,0 +1,61 @@
+# Created by:
+
+Done by Sultan Ali Sultan Fakhroo
+[LinkedIn Profile](https://www.linkedin.com/in/sultan-fakhroo-01412630b)
+
+
+# Contact Information Generator
+
+This project generates HTML files, QR codes, and vCards for a list of contacts. Each contact's information is rendered in an HTML page, with an embedded QR code and a downloadable vCard.
+QR Code Contact Information Generator
+This project creates a web form to input contact information, generates a QR code with vCard data, and provides an option to download the vCard file.
+
+# Prerequisites
+Ensure you have Python installed on your machine. You will also need to install the required Python packages:
+
+
+pip install qrcode[pil] vobject
+
+# Project Structure
+lua
+Copy code
+project_directory/
+│
+├── index.html
+├── contacts.py
+├── output/
+└── README.md
+
+
+## index.html: The HTML form for inputting contact information.
+## contacts.py: The Python script to handle the server, generate QR codes, and create vCards.
+## output/: The directory where generated files (QR codes and vCards) will be saved.
+## README.md: This file.
+Setting Up
+Clone the repository or download the project files:
+Make sure you have the index.html, contacts.py, and output/ directory in the same folder.
+
+## Install the required packages:
+Open a terminal or command prompt and run:
+
+pip install qrcode[pil] vobject
+Ensure the project directory structure:
+## The project should look like this:
+project_directory/
+├── index.html
+├── contacts.py
+├── output/
+└── README.md
+Run the Python script:
+Navigate to the project directory in the terminal or command prompt and run:
+
+python contacts.py
+
+Open the web form:
+Open your web browser and go to http://localhost:12007.
+
+Fill out the form:
+Input the contact details and submit the form.
+
+View the result:
+The resulting page will display the contact information, a QR code, and a download link for the vCard file.
